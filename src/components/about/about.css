@@ -1,0 +1,45 @@
+.about {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: teal;
+  text-align: center;
+}
+.about > h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.aboutHr {
+  width: 300px;
+  height: 5px;
+  margin: 40px auto;
+  border-radius: 5px;
+  background-color: white;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 200px;
+}
+.aboutContainerItem {
+  flex: 6;
+  margin: 0px 20px;
+}
+.aboutContainerItem > p {
+  font-size: 20px;
+  line-height: 30px;
+  color: wheat;
+}
+.aboutButton {
+  width: 180px;
+  height: 40px;
+  margin: 20px auto;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.aboutButton > p {
+  font-size: 22px;
+  color: white;
+  margin: 9px 0px;
+}

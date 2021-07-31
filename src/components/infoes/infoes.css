@@ -1,0 +1,25 @@
+.infoes {
+  width: 100%;
+  background-color: darkslateblue;
+  display: flex;
+  flex-direction: row;
+}
+.infoesItem {
+  flex: 6;
+  margin: 40px 100px;
+}
+.infoesItem > h1 {
+  text-align: center;
+  margin: 20px 0px;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.infoesItem > p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  line-height: 30px;
+}

@@ -1,0 +1,56 @@
+.register {
+  width: 100%;
+  padding: 40px 0px;
+  text-align: center;
+}
+.register > h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: teal;
+}
+.registerHr {
+  width: 300px;
+  height: 5px;
+  margin: 40px auto;
+  background-color: teal;
+}
+.registerForm {
+  width: 100%;
+}
+.registerForm > label {
+  display: block;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.registerForm > input {
+  height: 30px;
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  font-size: 25px;
+  border: none;
+  opacity: 0.5;
+  border-bottom: 2px solid black;
+}
+.registerForm > textarea {
+  margin-top: 20px;
+  font-size: 25px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-bottom: solid black;
+  opacity: 0.5;
+}
+.registerButton {
+  margin: 20px auto;
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+}
